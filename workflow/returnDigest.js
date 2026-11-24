@@ -1,0 +1,1 @@
+{ ok: true, logId: logDigestRun.data?.[0]?.id, date: buildDigest.data.date, overdueCount: buildDigest.data.overdueCount, revenueAtRisk: buildDigest.data.revenueAtRisk, crews: buildDigest.data.crews, subject: buildDigest.data.subject, digest: buildDigest.data.text }

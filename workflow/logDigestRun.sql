@@ -1,0 +1,1 @@
+INSERT INTO digest_log (overdue_count, revenue_at_risk, crews, digest_text) VALUES ({{  buildDigest.data.overdueCount }}, {{  buildDigest.data.revenueAtRisk }}, {{  JSON.stringify(buildDigest.data.crews) }}::jsonb, {{  buildDigest.data.text }}) RETURNING id, run_at, overdue_count;
